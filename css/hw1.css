@@ -1,0 +1,30 @@
+header {
+  background-color: #179b17;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  color: #007500;
+}
+
+section {
+  background-color: #d2f8d2;
+}
+
+a {
+  background-color: #fff;
+  color: #007500;
+}
+
+a:visited {
+  background-color: inherit;
+  color: #ad3700;
+}
+
+img {
+  display: none;
+}
