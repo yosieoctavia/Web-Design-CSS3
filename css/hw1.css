@@ -9,12 +9,13 @@ header {
   background-image: url("../images/flywheel.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 40px 30px;
+  padding: 18px 30px;
 }
 
 /* Head Styling -------------------- */
 h1 {
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
 }
 
@@ -25,46 +26,47 @@ h2 {
 
 /* Section Styling -------------------- */
 section {
+  display: inline-block;
   padding: 10px;
   margin: 0 50px;
 }
 
-section .right {
-  float: right;
+.right {
+  display: inline-block;
+  width: 70%;
 }
 
-aside {
+.left {
+  display: block;
   width: 20%;
-  min-height: 71.5vh;
-  padding: 15px 0;
-  margin: 0 20px 0 0;
+  height: 70vh;
   float: left;
   background-color: #e0e0e0;
   color: inherit;
+  margin: 0 auto;
 }
 
-img {
-  width: 200px;
-  height: 120px;
+.left img {
+  display: block;
+  width: 70%;
   border: 5px solid #007500;
   border-radius: 10px;
-  margin: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2em auto;
 }
 
 /* Link Styling -------------------- */
 a {
-  background-color: #ffffff55;
+  background-color: #ffffff65;
   color: #007500;
 }
 
 nav a {
-  display: inline;
+  display: inline-block;
   margin: 10px;
   padding: 11px 20px;
+  border: solid 1px #bbb;
   border-radius: 30px;
+  text-align: center;
   text-decoration: none;
 }
 
