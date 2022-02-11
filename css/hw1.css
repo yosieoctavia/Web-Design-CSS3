@@ -12,6 +12,7 @@ header {
   padding: 40px 30px;
 }
 
+/* Head Styling -------------------- */
 h1 {
   text-align: center;
   color: #fff;
@@ -22,6 +23,7 @@ h2 {
   background-color: inherit;
 }
 
+/* Section Styling -------------------- */
 section {
   padding: 10px;
   margin: 0 50px;
