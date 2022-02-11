@@ -38,10 +38,7 @@ aside {
   margin: 0 20px 0 0;
   float: left;
   background-color: #e0e0e0;
-}
-
-aside a {
-  background-color: inherit;
+  color: inherit;
 }
 
 img {
@@ -49,12 +46,13 @@ img {
   height: 120px;
   border: 5px solid #007500;
   border-radius: 10px;
-  display: block;
   margin: 30px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Link Styling -------------------- */
 a {
   background-color: #ffffff55;
   color: #007500;
