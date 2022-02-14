@@ -17,6 +17,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  background-color: transparent;
 }
 
 h2 {
@@ -73,4 +74,90 @@ nav a {
 .active {
   color: #fff;
   background-color: #007500;
+}
+
+/* Table Styling -------------------- */
+#Team {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  width: 80%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+table {
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 10px;
+  border-spacing: 0px;
+}
+
+thead {
+  border: 1px solid #1aa51a;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+
+th {
+  border: solid 1px #1aa51a;
+  border-bottom: solid 4px #4b4b4b;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1aa51a;
+  color: #fff;
+}
+
+td, tr {
+  border: solid 1px #ddd;
+  text-align: center;
+}
+
+td {
+  padding: 8px 12px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  opacity: 0.8;
+}
+
+table tr:nth-child(even) {
+  background-color: #ddd;
+  color: inherit;
+}
+
+/* Row changes color when hovered */
+table tr:hover {
+  background-color: #bcf5bc;
+  color: inherit;
+  opacity: 0.9;
+}
+
+/* Align left for the first column */
+.table-left {
+  text-align: left;
+  padding-left: 16px;
+  width: 50%;
+}
+
+/* Border radius for the table */
+table th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+table th:last-of-type {
+  border-top-right-radius: 10px;
+}
+
+table tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
 }
