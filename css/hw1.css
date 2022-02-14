@@ -132,14 +132,14 @@ table tr:nth-child(even) {
 }
 
 /* Row changes color when hovered */
-tr td{
+tr td {
   text-align: center;
   border-radius: 2px;
   padding: 1%;
   transition: 1s;
 }
 
-tr td:hover{
+tr td:hover {
   background-color: #bcf5bc;
   color: inherit;
   opacity: 0.95;
